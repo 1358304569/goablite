@@ -1,17 +1,23 @@
 ## goablite
 
 Golang语言实现的缩减版HTTP压测工具，类似ApacheBench
-
+<\br>
 名字很简单，go语言编写，类似ab，用的LiteIDE
-
+<\br>
 
 **参数：**
+<\br>
 	-n:连接数
 	-c:并发数
 	-p:CPU数
 	-u:URL
 **输出：**
+<\br>
 	Complete requests:成功建立连接的请求数
 	Failed requests:连接失败的请求数
 	UseTime:一共耗费的时间（s）
 	RPS:每秒完成的HTTP连接数（request per second）
+
+**整体开发过程博客记录：**
+<\br>
+	[Go语言实现HTTP压测工具](https://blog.csdn.net/qq_41059320/article/category/9017331)
