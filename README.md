@@ -4,6 +4,10 @@ Golang语言实现的缩减版HTTP压测工具，类似ApacheBench
 
 名字很简单，go语言编写，类似ab，用的LiteIDE
 
+**使用方法：**
+
+	myGoablite.exe -n=200 -c=10 -p=4 -u=http://www.baidu.com
+
 **参数：**
 
 	-n:连接数
@@ -18,5 +22,4 @@ Golang语言实现的缩减版HTTP压测工具，类似ApacheBench
 	RPS:每秒完成的HTTP连接数（request per second）
 
 **整体开发过程博客记录：**
-
 	[Go语言实现HTTP压测工具](https://blog.csdn.net/qq_41059320/article/category/9017331)
